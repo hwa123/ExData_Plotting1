@@ -1,8 +1,8 @@
 ## set up local directory
 setwd("~/R/Coursera/Exploratory Data Analysis/Project 1")
 
-## load raw data
-filename <- "household_power_consumption.txt"
+## load raw data (the file is downloaded to working directory above)
+filename <- "household_power_consumption.txt" 
 data <- read.table(filename, 
                    header = TRUE, 
                    sep = ";", 
