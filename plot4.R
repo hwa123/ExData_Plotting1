@@ -23,5 +23,5 @@ legend("topright",bty = "n", col = c("black", "red", "blue"),
        c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lwd = 1)
 #bottom-right
 plot(DateTime, Global_reactive_power, type = "l", col = "black",
-     xlab = "datetime", ylab = colnames(newData)[4])
+     xlab = "datetime", ylab = "Global_reactive_power")
 dev.off()
